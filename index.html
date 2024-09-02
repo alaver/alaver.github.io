@@ -1,79 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <!-- Primary Meta Tags -->
-  <title>Abigail Laver</title>
-  <meta name="title" content="Abigail Laver"/>
-  <meta name="description" content="Personal website."/>
-</head>
-<style>
-html {
-  font-size: 1rem;
-  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
-  font-family: Georgia, serif;
-  color: #3A3B3C;
-  background-color: rgb(235,235, 240);
-  opacity: .96;
-}
-header {
-		background-color: rgb(185, 214, 239);
-		background-attachment: scroll,								fixed;
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto;
-		color: #3A3B3C;
-		height: 100%;
-		left: 0;
-		padding: 8em 0 0 0;
-		position: fixed;
-		text-align: center;
-		top: 0;
-		width: 25%;
-	}
-h1 {
-    font-weight: 400;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-    line-height: 1;
-}
-a:link {
-  color: #3A3B3C;
-}
-a:visited {
-  color: #3A3B3C;
-}
-section {
-  margin-left: 25%;
-  margin-right: 30%;
-  padding: 10% 5% 5% 5%;
-  width: calc(100% - 35%);
-}
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-}
-</style>
-</head>
-<body>
-  <article>
-    <header>
-      <img src="https://alaver.github.io/resources/me_verona.jpeg" alt="website picture" width= "72%" height=auto>
-      <h1>Abigail Laver</h1>
-      <p style="font-size:.75em;text-align:left; margin-left:5%">Contact:
-      <br><img src="https://alaver.github.io/resources/email.png" alt="email icon" width= "5%" height=auto> alaver@sas.upenn.edu
-      <br><img src="https://alaver.github.io/resources/location.png" alt="location icon" width= "5%" height=auto> Stephen A. Levin Building<br>425 S. University Ave<br>Philadelphia, PA 19104</p>
-    </header>
-    <section>
-    <p>Hi! I'm a PhD student in the <a href="https://psychology.sas.upenn.edu/">Psychology Department</a> at the <a href="http://www.upenn.edu/">University of Pennsylvania</a>. My advisor is <a href="https://psychology.sas.upenn.edu/people/john-trueswell">John Trueswell</a> and I'm a member of his <a href="https://web.sas.upenn.edu/trueswell-lab/">Language Learning Lab.</a></p>
-    <p> Before beginning grad school, I worked with <a href="https://psychology.yale.edu/people/richard-aslin">Dick Aslin</a> as a lab manager for two years in the <a href="https://medicine.yale.edu/childstudy/research/autism-and-neurodevelopment/llamb/">Language, Learning, and Multisensory Brain (LLAMB) Lab</a> at the <a href ="https://medicine.yale.edu/childstudy/">Yale Child Study Center</a>. I earned my BA in Psychology from the University of Pennsylvania in 2021.</p>
-  </section>
-<aside>
-</article>
-</body>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Abigail Laver</title>
+    <link rel="stylesheet" href="tufte.css"/>
+    <link rel="stylesheet" href="latex.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGHL6HQ2YZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TGHL6HQ2YZ');
+    </script>
+  </head>
+
+  <body>
+    <article>
+      <h1 id="tufte-css">Abigail Laver</h1>
+        <!-- Labels / tags desktop-->
+          <div style="color:gray;font-size:26px;">
+              <span><a class="button" href=#research>Research</a></span>
+              <span><a class="button" href=#outreach>Outreach</a></span>
+              <span><a class="button" href=#resources>Resources</a></span>
+          </div>
+       </header>
+      <hr>
+      <section>
+        <p>Hi! I<label for="sn-me" class="margin-toggle">&#8853;</label></span><input type="checkbox" id="sn-me" class="margin-toggle"/><span class="marginnote"><br><img src="https://alaver.github.io/resources/me_verona.png"><br><br>Contact:<br><em>alaver@sas.upenn.edu</span>  am a PhD student in the <a href="https://psychology.sas.upenn.edu/">Psychology Department</a> at the <a href="http://www.upenn.edu/">University of Pennsylvania</a>. My advisor is <a href="https://psychology.sas.upenn.edu/people/john-trueswell">John Trueswell</a> and I'm a member of his <a href="https://web.sas.upenn.edu/trueswell-lab/">Language Learning Lab.</a></p>
+        <p> Before beginning grad school, I worked with <a href="https://psychology.yale.edu/people/richard-aslin">Richard Aslin</a> as a lab manager for two years in the <a href="https://medicine.yale.edu/childstudy/research/autism-and-neurodevelopment/llamb/">Language, Learning, and Multisensory Brain (LLAMB) Lab</a> at the <a href ="https://medicine.yale.edu/childstudy/">Yale Child Study Center</a>. I earned my BA in Psychology from the University of Pennsylvania in 2021.</p>
+      </section>
+    </article>
+  </body>
 </html>
